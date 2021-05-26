@@ -11,16 +11,15 @@ secondnumber_int = int(secondnumber)
 
 b = secondnumber_int
 
-resultype = input("what do you want to do? (write +, -, *, /) ")
-resultype_string = str(resultype)
+resultype = str(input("what do you want to do? (write +, -, *, /) "))
 
-if(resultype_string == "+"):
+if(resultype == "+"):
     print(a+b)
-if(resultype_string == "-"):
+if(resultype == "-"):
     print(a-b)
-if(resultype_string == "*"):
+if(resultype == "*"):
     print(a*b)
-if(resultype_string == "/"):
+if(resultype == "/"):
     print(a/b)    
 
 
